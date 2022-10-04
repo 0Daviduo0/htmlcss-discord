@@ -294,7 +294,7 @@ header{
 
         #image2{
             height: auto;
-            width: 50%;
+            width: auto;
             /* background-color: aquamarine; */
             /* border: #000 solid 1px; */
         }
@@ -302,17 +302,35 @@ header{
     .download{
         width: 100%;
         height: 200px;
-        background-color: red;
+        background-color: #f6f6f6;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-        #download{
-            height: 150px;
-            width: 50%;
-            background-color: aquamarine;
-            border: #000 solid 1px;
+        #download-intro{
+            height: 50px;
+            width: auto;
+            font-size: 40px;
+            text-align: center;
+            font-weight: bold;
+            background-image: url(../img/stars.svg);
+            background-repeat: no-repeat;
+            /* border: #000 solid 1px; */
+            padding-bottom: 4%;
+        }
+
+        #downloadfor2{
+            height: 40px;
+            width: 300px;
+            background-color: #7289da;
+            border-radius: 50px;
+            text-align: center;
+            color: #fff;
+            font-size: 20px;
+            padding-top: 1%;
+            padding-bottom: 2%;
         }
 
     /* Footer */
