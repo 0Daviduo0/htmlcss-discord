@@ -6,6 +6,15 @@
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.linkstyle{
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.linkstyle:hover{
+    text-decoration: underline;
+}
 
 /* Header */
 header{
@@ -56,9 +65,32 @@ header{
         .login{
             height: 40px;
             width: 10%;
-            background-color: aquamarine;
-            border: #000 solid 1px;
+            /* background-color: aquamarine;  */
+            /* border: #000 solid 1px;  */
+            display: flex;
+            justify-content: center;
         }
+
+            #loginbutton{
+                height: 40px;
+                width: 80px;
+                padding: 5% 0;
+                /* border: #000 solid 1px; */
+                color: #000;
+                background-color: #fff;
+                border-radius: 30%;
+                text-align: center;
+                padding: 12% 0;
+            }
+
+            #updownloadbutton{
+                text-decoration: none;
+                color: inherit;
+            }
+
+
+
+
 
     /* Intro properties */
     .intro{
