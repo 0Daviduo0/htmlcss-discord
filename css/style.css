@@ -394,10 +394,28 @@ footer{
 
     .linkest{
         width: 17.5%;
-        height: 280px;
-        background-color: bisque;
-        border: 1px solid #000;
+        height: 480px;
+        /* background-color: bisque; */
+        /* border: 1px solid #000; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 3%;
     }
+
+        .intrestsect{
+            height: 20px;
+            width: 60%;
+            border: #000 solid 1px;
+            color: #788adf;
+            text-align: center;
+        }
+
+        .intrestlinks{
+            height: 360px;
+            width: 60%;
+            border: #000 solid 1px;
+        }
 
 .downlogo{
     width: 100%;
