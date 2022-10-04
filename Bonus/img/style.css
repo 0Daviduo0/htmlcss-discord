@@ -169,6 +169,16 @@ header{
                 }
 
 /* Main */
+.wavescont{
+    display:flex;
+    flex-direction: column;
+}
+
+
+    #wavesrotate{
+        transform: rotate(180deg); 
+    }
+
 .showcase{
     width: 100%;
     display: flex;
