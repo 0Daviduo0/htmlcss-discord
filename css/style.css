@@ -394,7 +394,7 @@ footer{
 
     .linkest{
         width: 17.5%;
-        height: 480px;
+        height: 500px;
         /* background-color: bisque; */
         /* border: 1px solid #000; */
         display: flex;
@@ -406,16 +406,27 @@ footer{
         .intrestsect{
             height: 20px;
             width: 60%;
-            border: #000 solid 1px;
+            /* border: #000 solid 1px; */
             color: #788adf;
-            text-align: center;
         }
 
         .intrestlinks{
-            height: 360px;
+            height: 400px;
             width: 60%;
-            border: #000 solid 1px;
+            /* border: #000 solid 1px; */
+            color: #fff;
+            line-height: 40px;
         }
+
+            .linkcolumn{
+                text-decoration: none;
+                color: inherit;
+                
+            }
+
+                .linkcolumn:hover{
+                    text-decoration: underline;
+                }
 
 .downlogo{
     width: 100%;
@@ -443,7 +454,7 @@ footer{
 
         #signupstyle{
             text-decoration: none;
-                color: inherit;
+            color: inherit;
         }
 
 
