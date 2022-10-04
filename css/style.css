@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 
@@ -38,10 +39,20 @@ header{
         .linkup{
             height: 40px;
             width: 50%;
-            background-color: aquamarine;
-            border: #000 solid 1px;
+            /* background-color: aquamarine; */
+            /* border: #000 solid 1px; */
+            display: flex;
         }
 
+            .linkuplinks{
+                height: 40px;
+                width: 20%;
+                /* border: #000 solid 1px; */
+                text-align: center;
+                padding: 1% 0;
+                color: #fff;
+            }
+            
         .login{
             height: 40px;
             width: 10%;
