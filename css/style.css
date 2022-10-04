@@ -356,7 +356,7 @@ footer{
 
         #Phrase{
             height: 110px;
-            border: #000 solid 1px;
+            /* border: #000 solid 1px; */
             font-size: 45px;
             font-weight: bold;
             color: #788adf;
@@ -364,7 +364,7 @@ footer{
 
         #lang{
             height: 40px;
-            border: #000 solid 1px;
+            /* border: #000 solid 1px; */
             padding-top: 2%;
             color: #fff;
         }
@@ -376,7 +376,7 @@ footer{
 
         .social{
             height: 30px;
-            border: #000 solid 1px;
+            /* border: #000 solid 1px; */
             color: #fff;
             font-size: 20px;
             display: flex;
@@ -384,6 +384,11 @@ footer{
 
             .iconsocial{
                 padding-right: 20px;
+            }
+
+            #linksocial{
+                text-decoration: none;
+                color: inherit;
             }
 
 
